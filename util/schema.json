@@ -1,0 +1,72 @@
+{
+	"schema1": {
+		"@context": "http://schema.org",
+		"@type": "WebSite",
+		"url": "domain/",
+		"potentialAction": {
+			"@type": "SearchAction",
+			"target": "domain/searchresults?q=${search_term_string}",
+			"query-input": "required name=search_term_string"
+		}
+	},
+	"schema2": {
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"@id": "kg:/g/11vcl7mn3f",
+		"url": "domain/",
+		"mainentityofpage": "https://www.google.com/search?q=phongtrotanbinh&kponly=&kgmid=/g/11vcl7mn3f",
+		"alternatename": [""],
+		"actionableFeedbackPolicy": "domain/dieu-khoan-su-dung",
+		"award": "",
+		"disambiguatingdescription": "",
+		"slogan": "",
+		"foundingDate": "2023-08-01",
+		"numberOfEmployees": {
+			"@type": "QuantitativeValue",
+			"minvalue": "50",
+			"maxvalue": "300",
+			"value": "140"
+		},
+		"foundingLocation": {
+			"@type": "place",
+			"name": "",
+			"url": "https://www.wikidata.org/wiki/Q1854",
+			"address": ""
+		},
+		"additionaltype": [
+			"https://en.wikipedia.org/wiki/Real_estate",
+			"https://en.wikipedia.org/wiki/Boarding_house"
+		],
+		"logo": "domain/assets/text.1dba67ba.svg",
+		"email": "phongtrofree@gmail.com",
+		"address": {
+			"@type": "PostalAddress",
+			"addressLocality": "Bình Tân",
+			"addressCountry": "Việt Nam",
+			"addressRegion": "Hồ Chí Minh",
+			"postalCode": "72100",
+			"streetAddress": ""
+		},
+		"description": "",
+		"name": "",
+		"telephone": "",
+		"potentialAction": {
+			"@type": "SubscribeAction",
+			"target": {
+				"@type": "EntryPoint",
+				"urlTemplate": "domain/gioi-thieu",
+				"inLanguage": "vn",
+				"actionPlatform": [
+					"http://schema.org/DesktopWebPlatform",
+					"http://schema.org/IOSPlatform",
+					"http://schema.org/AndroidPlatform"
+				]
+			},
+			"result": {
+				"@type": "Thing",
+				"name": "Mailing List"
+			}
+		},
+		"sameAs": [""]
+	}
+}
